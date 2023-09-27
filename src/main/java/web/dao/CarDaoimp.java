@@ -20,8 +20,7 @@ public class CarDaoimp implements CarDao {
         }
 
     public List<Car> getCars() {
-
-            return cars;
+        return cars;
     }
 }
 

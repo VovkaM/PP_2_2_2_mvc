@@ -11,7 +11,6 @@ public class CarServicelmpl implements CarService {
     private CarDao carDao;
     @Autowired
     public CarServicelmpl(CarDao carDao) {
-
         this.carDao = carDao;
     }
     @Override
